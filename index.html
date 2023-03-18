@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>testings</title>
+</head>
+<body>
+    <div class="container" id="container">
+
+        <h1>FORM</h1>
+        <form id="form">
+            <br>
+            <label for="username">Username:</label>
+            <input type="text" id="user" name="username">
+            <br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br>
+    
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
+            <br>
+    
+            <input type="checkbox" id="check" name="check">
+            <label for="check"> accetta i termini</label>
+    
+            <div id="errore"><br></div>
+            <button type="submit" id="bottone">Clicca qui</button>
+        </form>
+        
+    </div>
+
+    <div class="container" id="info">
+        <p id="text" style="display:none">dati rubati</p>
+        <p id="username">username:</p>
+        <p id="emailtext">email:</p>
+        <p id="passwordtext">password:</p>
+        
+    </div>
+    <script src="javascript/main.js"></script>
+</body>
+</html>
