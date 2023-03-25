@@ -13,6 +13,7 @@ function invia(){
   let username=document.getElementById("user").value;
   if(checkbox.checked){
     document.getElementById("container").style.display="none";
+    document.getElementById("info").style.display="block";
     emailbox.innerText+=email;
     passwordbox.innerText+=password;
     usernamebox.innerText+=username;
